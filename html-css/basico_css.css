@@ -1,0 +1,72 @@
+/* Anotações básicas - CSS*/
+
+/* CSS - Cascading Style Sheets (Folha de estilo em cascada), é uma linguagem de marcação
+para estilizar, organizar de forma visual as páginas web.
+
+*/
+
+
+/* Comentário CSS - não será lido pelo navegador */
+
+
+/*  ---------------------------------------- */
+
+
+
+/* Sintaxe e regras 
+	para aplciar as regras css precisamos selecionar os elementos a serem modificados, no CSS temos diversas formas
+	de fazer essa seleção.
+
+
+*/
+
+
+h1 { /* seletor - Seleciona o elemento do HTML que vamos estilizar */
+	/* Dentro das chaves haverá uma ou mais declarações com propriedade e valor que desejamos modificar*/
+	color:  red;  /* propriedade cor, valor vermelhor */
+
+}
+
+
+/*Especificando múltiplos seletores - queremos modificar todos li e p*/
+p, li {
+	color: green;
+}
+
+
+
+/* alterando o comportanto padrão dos elementos */
+li {
+	list-style-type: none; 
+}
+
+/* Estilizando com classes */
+
+.especial {
+	color: orange;
+	font-weight: bold;
+}
+
+/* Estilizando baseado em sua localização do documento */
+
+li em {
+	color: rebeccapurple;
+}
+
+
+/* Estilizando baseado no seu estado - existem alguns elementos que possui mais de um estado, nesse exemplo
+utilizao o links */
+a:link {
+	color: deeppink;
+}
+
+a:visited {
+	color: green;
+}
+
+a:hover  { /* alterando a aparencia quando o mouse passar em cima do link */
+ 	text-decoration: none;
+ 	color: aliceblue;
+}
+
+
