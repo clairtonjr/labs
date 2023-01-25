@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anotações Básicas - HTML5</title>
+    
+</head>
+<body>
+  <h1>HTML5</h1>
+    <p> HTML é uma linguagem de marcação que estrutura uma pagina web.
+        Têm uma série de elementos marcadores diferentes para que o conteúdo seja ou apareça de uma determinada maneira. Essa página está 
+        sendo exibida por HTML, apenas com a estruta básica de marcadores como html, head, title e body. 
+        Para dar estrutura e significado a um texto seja ele de um jornal, revista ou livro usamos de títulos, parágrafos, listas, ênfases, citações e etc.
+        O HTML têm tags (marcações) para tornar estruturado e legível o texto exibido no navegador. 
+    </p>
+
+  <section>
+    <h2>Alguns exemplos de tags HTML: </h2>
+  </section>
+
+<hr>
+<br>
+  <section>
+    <h3> 
+      Títulos e Subtítulos
+    </h3>
+      <p> Existem seis elementos para títulos: H1, H2, H3, H4, H5 e H6. A importância é H1 > H2, H2 > H3 e assim sucessivamente.</p>
+      <p> Dicas de uso: preferencialmente usar não mais que três tags de títulos e apenas um H1 por página. 
+      </p>
+   </section>
+
+  <hr>
+
+        
+  
+   <section>         
+   <h2> Parágrafos </h2>
+       <p> Eu sou um parágrafo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, quidem. 
+           Ab fuga ipsam iste, consequuntur commodi possimus minima soluta sequi impedit velit inventore tempore exercitationem,
+           adipisci sapiente rerum voluptatibus aut.
+       </p>
+  
+       Eu nao sou um parágrafo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, quidem. Ab fuga ipsam iste, consequuntur commodi possimus minima soluta sequi impedit velit inventore tempore exercitationem, adipisci sapiente rerum voluptatibus aut.
+   
+       Outro texto sem parágrafo
+
+    <p>O exemplo acima mostra que o primeiro parágrafo enquanto dentro da tag p é mais organizado que os outros dois.</p>
+   
+   </section>
+
+   <hr>
+
+   <section>
+       
+       <h2>Listas</h2>
+       <p>
+           Listas fazem parte de muitos momentos da nossa vida, também de boa parte da web. No HTML temos listas ordenadas e não ordenadas.
+       </p> 
+
+       <p> - Lista não ordenada - a posição de cada elemento não tẽm importância. </p>
+       
+       <ul>
+           <li> Sal</li>
+           <li>Limão</li>
+           <li>Leite</li>
+       </ul>
+
+       <p> - Lista ordenada - a posição de cada elemento têm importância. </p>
+       <ol>
+           <li>Entrar na fila</li>
+           <li>Pagar estacionamento</li>
+           <li>Ir embora</li>
+       </ol>
+       
+   </section>
+   
+   <hr>
+   
+   <section>
+       <h2>Ênfase e Importância</h2>
+       <p>Quando queremos destacar algo enquanto conversamos é comum destacarmos algumas palavras para que o interlocutor as entenda como queremos.</p>
+       <p>No HTML podemos marcar essas palavras dando ênfases e importância a elas</p>
+
+       <p>
+          --- Estou <em>feliz</em> pela sua <em> chegada</em>.
+       </p>
+       <p>
+           --- <strong>Não</strong>, eu não irei com <strong>você</strong>.
+       </p>
+    </section>
+  
+
+    <section>
+       <h2>Hiperlinks </h2>
+
+        <p>
+            Hiperlinks são formas de vincular documentos com outros documentos. 
+            Também podemos vincular - ligar, linkar - partes específicas de documentos. 
+         </p>
+       
+         
+        <p>
+            <a href="https://www.google.com/">Link que vai para o página inicial do google.</a>
+        </p>
+        
+
+        <p>adiciando mais informações no link 
+     
+         <a href="https://www.mozilla.org/en-US/"
+        title="O melhor lugar para encontrar mais informações sobre a missão da Mozilla e como contribuir"> a página inicial da Mozilla</a>.
+        </p>
+     
+     
+        <p>   Para entender links é bom conhecer URL e caminhos de arquivos.
+         URL é simplesmente uma sequência de texto que define onde algo está localizado na web. Os URL usam caminhos para encontrar arquivos.
+         Ao trabalhar localmente com um site, teremos um diretório no qual ele todo esta dentro, podemos precisar de arquivos dentro do mesmo
+         diretório ou fora. 
+        </p>
+    </section>  
+
+
+    <section>
+        <h2>Imagens</h2>
+   
+
+        <h2> Exemplos:</h2>
+    
+        <p>Para colocar uma imagem no site é muito simples, o exemplo abaixo a imagem está no diretório img</p>
+      
+        <img src="img/dinossauro.jpg">
+        
+        <br>
+        <hr>
+    
+        <p>texto alternativo na imagem caso ela não apareça. </p> 
+    
+        <img src="img/dinosauro.jpg" alt="Imagem de Dinossauro feroz">
+    
+        <br>
+        <hr>
+    
+        <p> alterando largura e altura da imagem. </p>
+        
+        <img src="img/dinossauro.jpg" alt="Imagem de Dinossauro feroz"
+        width="300" height="341">
+    
+        <br>
+        <hr>
+    
+      
+        <p> Títulos de imagem ( bom uso em galerias).</p>
+      
+        <img src="img/dinossauro.jpg" alt="Imagem de Dinossauro feroz"
+        width="300" height="341" title="Um Dinossauro em algum lugar" >
+    
+        <br>
+        <hr>
+    
+        <p>   Adicionando legenda em imagens de forma semântica. </p>
+        <figure>
+            <img src="img/dinossauro.jpg" alt="Imagem de Dinossauro feroz"
+            width="300" height="341">
+            <figcaption> Um Dinossauro em algum lugar</figcaption>
+        </figure>
+    
+    </section>
+
+    <section>
+
+        <h2>Formulários</h2>
+        <p> 
+             
+        O uso comum para formulário é a entrada de dados/textos para a realização de um cadastro etc.
+        O elemento input é o mais utilizado dentro dos forms, sendo de textos, botões ou marcações.
+        </p>   
+        
+        <h2>Exemplos</h2>
+    
+    
+        
+        <form action="">
+            <h3>Elementos comuns em formulários: </h3>
+                <p>
+                    Input de texto:
+                    <input type="text">  
+                </p>
+                <br>
+    
+                <p>
+                    Input do tipo botão clicável para ações específicas:
+                    <input type="button" value="click">
+                </p>
+                <br>
+            
+                <p>
+                    Radio button para a seleção de uma opção dentre várias escolhas:
+                    <input type="radio">
+                </p>
+                <br>
+    
+                <p>
+                    checkbox para multiplas escolhas dentre várias opções:
+                    <input type="checkbox">
+                </p>
+                <br>
+         
+        </form>
+        
+        <hr>
+        
+        <h3>Exemplo campos de textos</h3>
+        <form action="">
+            <label for="nome">Primeiro nome:</label>
+            <input type="text" id="nome"> <br>
+            <label for="nome">Segundo nome:</label>
+            <input type="text" id="nome">
+    
+        </form>
+        
+        <br>
+        <hr>
+            
+        <h3>Exemplo Radio buttons</h3>
+        <form action="">
+            <input type="radio" id="masculino" name="genero" value="masculino">
+             <label for="masculino">Masculino</label><br>
+             <input type="radio" id="feminino" name="genero" value="feminino">
+             <label for="feminino">Feminino</label><br>
+    
+        </form>
+         
+        <br>
+        <hr>
+    
+        <h3>Exemplo checkboxes</h3>
+        <form action="">
+            <input type="checkbox" id="veic1" name="veic1" value="Bicicleta">
+            <label for="veic1"> Eu tenho uma bicicleta</label><br>
+            <input type="checkbox" id="veic2" name="veic2" value="Carro">
+            <label for="veic2"> Eu tenho um carro</label><br>
+            <input type="checkbox" id="veic3" name="veic3" value="Barco">
+            <label for="veic3"> Eu tenho um barco</label>
+    
+        </form>
+        
+    
+    </section>
+
+    <section>
+        <h2>Tabelas</h2>    
+        <p>
+             Tabelas são um conjunto estuturado de dados constituído por linhas e colunas.
+             uma tabela permite consultar permite consultar de forma fácil e rápida valores. 
+         </p>
+         <p>
+             
+             Em versões anteriores do HTML e em muitos sites antigos, usavamos tabelas para o layout do site, essa já se tornou uma má prática.
+             Sabemos o que são tabelas, em HTML usamos para mostrar dados dados tabulares. Além de não usarmos para fazer layout, devemos evitor o uso
+             porquê elas não são automaticamente responsivas.
+        </p>
+         
+        
+        <h2>Exemplo Tabela</h2>
+        <hr>
+         <table>
+             <tr>
+                 <td>Olá, primeira célula</td>
+                 <td>Olá, segunda célula</td>
+                 <td>Olá, terceira célula</td>
+                 <td>Olá, quarta célula</td>
+             </tr>
+             <tr>
+                 <td>segunda linha, primeira célulafirst cell.</td>
+                 <td>Célula 2.</td>
+                 <td>Célula 3.</td>
+                 <td>Célula 4.</td>
+               </tr>
+     
+     
+         </table>
+
+        </section>
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
